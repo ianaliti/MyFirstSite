@@ -1,0 +1,61 @@
+/*selector{
+	Property: value;
+}*/
+* {
+	text-align: right;
+}
+
+body {
+	background-image: url(backround.jpg);
+	background-size: cover;
+}
+h2, p {
+	color: #E7BF52;
+	text-align: center;
+	border: 5px solid rgba(57, 116, 147, 0.5); 
+	cursor: pointer;
+}
+
+p {
+	line-height: 30px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80%;
+	font-family: 'Roboto', sans-serif;
+}
+
+img {
+
+	float: left;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+footer {
+	clear: both;
+	color: white;
+	font-family: Roboto;
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext {
+	border: 3px dashed green;
+}
+.active {
+	color: red;
+}
+#div1 {
+	background: rgba(0, 0, 255, 0.2);
+}
+#div2 {
+	background: rgba(0, 255, 0, 0.2);;
+}
+

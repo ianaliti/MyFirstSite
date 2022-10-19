@@ -1,0 +1,43 @@
+
+body {
+	background-color: grey;
+	margin: 0px;
+}
+
+.btn-primary {
+	background-color: #AA9539;
+}
+
+.btn-primary:hover {
+	background-color: grey;
+}
+
+card {
+	display: flex;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	border: 2px solid red;
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+}
+
+img {
+	weight: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+img:hover {
+	transform: scale(1.1);
+}
